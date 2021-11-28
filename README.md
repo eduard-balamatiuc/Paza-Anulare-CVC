@@ -1,4 +1,5 @@
 # _Paza Anulare Computer Vision Camp_
+<a href="https://lgtm.com/projects/g/badges/shields/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/badges/shields.svg?logo=lgtm&logoWidth=18"/></a>
 
 ------------------
 
