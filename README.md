@@ -12,7 +12,7 @@
 
 ### First of all please download all the library requirments using the `requirments.txt` file from above so the project could work properly on your computer.
 
-##### [Here](https://www.youtube.com/watch?v=mBcmdcmZXJg&ab_channel=JieJenn) is a tutorial on how to do it properly
+### [Here](https://www.youtube.com/watch?v=mBcmdcmZXJg&ab_channel=JieJenn) is a tutorial on how to do it properly
 
 ---
 
