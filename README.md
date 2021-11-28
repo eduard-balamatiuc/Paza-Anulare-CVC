@@ -38,7 +38,7 @@
 
 - **American Sign-Language**
 
-  The feature uses yolov5m module to detect the symbol represented by the users hand, subsequently it predicts the letter with an accurancy of 94.76%. This makes it easier for deaf people to interact live in online meetings, consequently improving the quality of the webinars. 
+  The feature uses yolov5m module to detect the symbol represented by the users hand, subsequently it predicts the letter with an accuracy of 94.76%. This makes it easier for deaf people to interact live in online meetings, consequently improving the quality of the webinars. 
   
   ---
 
