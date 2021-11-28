@@ -1,5 +1,5 @@
 # _Paza Anulare Computer Vision Camp_
-<a href="https://lgtm.com/projects/g/badges/shields/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/badges/shields.svg?logo=lgtm&logoWidth=18"/></a>                             <img src="https://img.shields.io/badge/Powered%20by-Paza%20Anulare-red">
+<img src="https://img.shields.io/badge/Powered%20by-Paza%20Anulare-red">
 ------------------
 
 #### __This GitHub repository contains all the "Paza Anulare" team's work throughout the Computer Vision Camp.__
