@@ -1,6 +1,6 @@
 # _Paza Anulare Computer Vision Camp_
 
-<img src="https://img.shields.io/badge/Powered%20by-Paza%20Anulare-red">                      <img src="https://img.shields.io/badge/Give%20me%20SARMALE-420-red">                            <img src="https://img.shields.io/badge/Pay%20me%20a%20coffe-69-red">                            <img src="https://img.shields.io/badge/Dragon%20Balls-5%2F7-red">
+<img src="https://img.shields.io/badge/Powered%20by-Paza%20Anulare-red">                      <img src="https://img.shields.io/badge/Give%20me%20SARMALE-420-red">                            <img src="https://img.shields.io/badge/Pay%20me%20a%20coffee-69-red">                            <img src="https://img.shields.io/badge/Dragon%20Balls-5%2F7-red">
 
 ------------------
 
