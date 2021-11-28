@@ -52,4 +52,4 @@
 
 ## Big shout-out to Sigmoid for organizing this kind of events
 
-![](images/team_paza_thank_you_sgmd.png)![team_paza_thank_you_sgmd.png](C:\Users\balam\Desktop\team_paza_thank_you_sgmd.png)
+![](images/team_paza_thank_you_sgmd.png)
