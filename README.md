@@ -20,13 +20,13 @@
 
 - **Live Edit**
   
-  -The tool allows the user to edit and transform documents live during the meeting and modify them as you wish. You can add text, drawings, geometric figures and also transform functions into graphics( The graphics feature can get as input many different types of mathematical functions as power, rational, modulus, polynomial and trigonometric ones and then convert them into graphics images).
+  The tool allows the user to edit and transform documents live during the meeting and modify them as you wish. You can add text, drawings, geometric figures and also transform functions into graphics( The graphics feature can get as input many different types of mathematical functions as power, rational, modulus, polynomial and trigonometric ones and then convert them into graphics images).
   
   ---
 
 - **Attendance check of participants**
 
-  -Since the start of online classes and meetings, the presence of the students has always been a problem for the professors and lecturers, therefore we designed a simple but inovative tool whichs main purpose is to detect if the participant is actually present or not by identifying him during the meeting through the camera. Afterwards, when the meeting is done the admin will get a concise statistics about the attendance on all the participants
+  Since the start of online classes and meetings, the presence of the students has always been a problem for the professors and lecturers, therefore we designed a simple but inovative tool whichs main purpose is to detect if the participant is actually present or not by identifying him during the meeting through the camera. Afterwards, when the meeting is done the admin will get a concise statistics about the attendance on all the participants
   
   ---
 
@@ -38,7 +38,7 @@
 
 - **American Sign-Language**
 
-  -The feature uses yolov5m module to detect the symbol represented by the users hand, subsequently it predicts the letter with an accurancy of 94.76%. This makes it easier for deaf people to interact live in online meetings, consequently improving the quality of the webinars. 
+  The feature uses yolov5m module to detect the symbol represented by the users hand, subsequently it predicts the letter with an accurancy of 94.76%. This makes it easier for deaf people to interact live in online meetings, consequently improving the quality of the webinars. 
   
   ---
 
