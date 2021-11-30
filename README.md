@@ -15,7 +15,7 @@
 ### [Here](https://www.youtube.com/watch?v=mBcmdcmZXJg&ab_channel=JieJenn) is a tutorial on how to do it properly
 
 ---
-###We are using OBS Virtual Camera to enable the use of our product in every meeting platform, so please use [this tutorial](https://www.youtube.com/watch?v=52jwRWm7KII) to set up the virtual camera.
+### We are using OBS Virtual Camera to enable the use of our product in every meeting platform, so please use [this tutorial](https://www.youtube.com/watch?v=52jwRWm7KII) to set up the virtual camera.
 
 ---
 
