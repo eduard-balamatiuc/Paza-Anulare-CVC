@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window</class>
+ <widget class="QDialog" name="Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>479</width>
+    <height>175</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AllowCamera</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(102, 46, 28); font-family: 'Montserrat', sans-serif</string>
+  </property>
+  <widget class="QLabel" name="advertismentLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>480</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat,sans-serif</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(243,234,209); font-size:16px;</string>
+   </property>
+   <property name="text">
+    <string>Include the key:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="indent">
+    <number>40</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="continueBtn">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>120</y>
+     <width>140</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat,sans-serif</family>
+     <pointsize>-1</pointsize>
+     <weight>87</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#continueBtn{
+color: rgb(255, 255, 255); 
+font-size:16px; 
+font-weight:700;
+}
+#continueBtn::hover{
+background-color:#451f13;
+}</string>
+   </property>
+   <property name="text">
+    <string>Continue</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="codeInput">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>60</y>
+     <width>300</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat,sans-serif</family>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#codeInput{
+background-color: rgb(175, 68, 37, 20);
+border-radius:5px;
+cursor: arrow;
+}
+#codeInput:focus{
+cursor: |Beam;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Enter the key of the room</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

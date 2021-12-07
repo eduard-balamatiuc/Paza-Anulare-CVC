@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window</class>
+ <widget class="QDialog" name="Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>175</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AllowCamera</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(102, 46, 28); font-family: 'Montserrat', sans-serif</string>
+  </property>
+  <widget class="QLabel" name="advertismentLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>480</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat,sans-serif</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  rgb(243,234,209); font-size:16px;</string>
+   </property>
+   <property name="text">
+    <string>Continue with Zoom?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="chooseBtn">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>120</y>
+     <width>140</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat,sans-serif</family>
+     <pointsize>-1</pointsize>
+     <weight>87</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#chooseBtn{
+color: rgb(255, 255, 255); 
+font-size:16px; 
+font-weight:700;
+}
+#chooseBtn::hover{
+background-color:#451f13;
+}</string>
+   </property>
+   <property name="text">
+    <string>Choose another</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="continueBtn">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>120</y>
+     <width>140</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat,sans-serif</family>
+     <pointsize>-1</pointsize>
+     <weight>87</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#continueBtn{
+color: rgb(255, 255, 255); 
+font-size:16px; 
+font-weight:700;
+}
+#continueBtn::hover{
+background-color:#451f13;
+}</string>
+   </property>
+   <property name="text">
+    <string>Continue</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>150</width>
+    <height>80</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="settings">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#settings{
+color : rgb(80, 80, 80);
+}
+#settings:hover {
+background-color : rgb(235,220,178, 40);
+}</string>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="indent">
+    <number>30</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="language">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#language{
+color : rgb(80, 80, 80);
+}
+#language:hover {
+background-color : rgb(235,220,178, 40);
+}</string>
+   </property>
+   <property name="text">
+    <string>Language</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="indent">
+    <number>30</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="collabPlatf">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#collabPlatf{
+color : rgb(80, 80, 80);
+}
+#collabPlatf::hover {
+background-color : rgb(235,220,178, 40);
+}</string>
+   </property>
+   <property name="text">
+    <string>Collaboration Platform</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="indent">
+    <number>30</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logout">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#logout{
+color : rgb(80, 80, 80);
+}
+#logout::hover {
+background-color : rgb(235,220,178, 40);
+}</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="indent">
+    <number>30</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="languageIcon">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>22</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/language.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="collabIcon">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>42</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/collab_settings.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logoutIcon">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>62</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/126467.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="settingsIcon">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>2</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/settings.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

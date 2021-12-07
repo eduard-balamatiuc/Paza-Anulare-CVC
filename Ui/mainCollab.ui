@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Montserrat,sans-serif</family>
+    <pointsize>9</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);font-family: 'Montserrat', sans-serif;</string>
+  </property>
+  <widget class="QLabel" name="orizontalBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#C9A66B;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lateralMenu">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>160</width>
+     <height>370</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#EBDCB2</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="roomsLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>135</y>
+     <width>160</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#roomsLabel{
+background-color:#EBDCB2;
+color : #662E1C;
+}
+#roomsLabel::hover{
+background-color:#c49d5d;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Rooms</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="filesLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>65</y>
+     <width>160</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#filesLabel{
+background-color:#EBDCB2;
+color : #662E1C;
+}
+#filesLabel::hover{
+background-color:#c49d5d;
+}</string>
+   </property>
+   <property name="text">
+    <string>Files</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="presentationLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>160</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#presentationLabel{
+background-color:#EBDCB2;
+color : #662E1C;
+}
+#presentationLabel::hover{
+background-color:#c49d5d;
+}</string>
+   </property>
+   <property name="text">
+    <string>Presentation</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="collabLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>160</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#collabLabel{
+background-color:#C9A66B;
+color : #662E1C;
+}
+#collabLabel::hover{
+background-color:#c49d5d;
+}</string>
+   </property>
+   <property name="text">
+    <string>Collaborators</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="arrowIcon">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>5</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#arrowIcon{
+background-color:none;
+}
+#arrowIcon::hover{
+background-color:#a18555;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/back_arrow.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchInput">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>5</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#searchInput{
+background-color:rgb(175, 68, 37, 51); border-radius: 10px; border:none; padding-left:25px
+}
+#searchInput::hover{
+cursor:text;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Search for...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="userIcon">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>1</y>
+     <width>28</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#userIcon{
+background-color:none;
+}
+#userIcon::hover{
+background-color:#a18555;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/profile_image.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="presentationIcon">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>38</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/present.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="collabIcon">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>108</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/collab.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="roomsIcon">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>143</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/room.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="filesIcon">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>73</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/file.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="collabSearch">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>220</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat,sans-serif</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#collabSearch {
+color : #808080;
+color: black;
+background-color: rgb(175, 68, 37, 150);
+border-radius: 10px;
+border:none;
+padding-left:25px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Search for collaborators</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="searchIcon">
+   <property name="geometry">
+    <rect>
+     <x>505</x>
+     <y>7</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/lupa_png.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="searchIcon_2">
+   <property name="geometry">
+    <rect>
+     <x>198</x>
+     <y>65</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/lupa_png.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>105</y>
+     <width>170</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat,sans-serif</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Your collaborators:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
